@@ -28,7 +28,7 @@
 		<echo message="Lib: ${lib}"/>
 		<echo message="Src: ${source}"/>
 		<javac debug="true" debuglevel="${debuglevel}" destdir="../../bin" includeantruntime="false" 
-		source="${source}" target="${target}" classpath="${lib}" verbose="yes"
+		source="${source}" target="${target}" classpath="${lib}" verbose="no"
 		sourcepath="">
 			<src path=".;../test"/>
 		</javac>
