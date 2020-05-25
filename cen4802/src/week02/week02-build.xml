@@ -25,6 +25,7 @@
 	<target depends="init" name="build-project">
 		<echo message="${ant.project.name}: ${ant.file}"/>
 		<echo message="Lib: ${lib}"/>
+		<echo message="Src: ${source}"/>
 		<javac debug="true" debuglevel="${debuglevel}" destdir="../../bin" includeantruntime="false" 		  source="${source}" target="${target}" classpath="${lib}" verbose="no">
 			<src path=".."/>
 		</javac>
