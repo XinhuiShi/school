@@ -4,7 +4,7 @@
 	<property name="debuglevel" value="source,lines,vars"/>
 	<property name="target" value="1.8"/>
 	<property name="source" value="1.8"/>
-	<property name="lib" value="../../.lib/junit.jar"/>
+	<property name="lib" value="../../lib/junit.jar"/>
 	<!--
 	<path id="cen4802.classpath">
 		<pathelement location="../../bin"/>
