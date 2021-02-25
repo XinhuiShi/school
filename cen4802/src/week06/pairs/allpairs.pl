@@ -59,6 +59,14 @@ Script usage: perl allpairs.pl datafile
 of variables. The first row of the table is treated as labels.
 If you copy from Excel into a text file it will be the right format.
 
+******************
+Run the Allpairs program from a DOS command-line like this 
+(specify the path where allpairs.exe exists)
+4.  ALLPAIRS. exe <input file>  > <Output file>
+    Example ALLPAIRS VARS.TXT > TESTCASES.TXT
+            ALLPAIRS VARS.TXT > TESTCASES.xls
+*******************
+
 Example: allpairs test.txt
 
 ...where test.txt contains:
