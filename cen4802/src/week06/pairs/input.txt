@@ -1,0 +1,6 @@
+SensorType	WeaponType	DataLink	TargetType	PlatformType
+S1	W1	Yes	T1	P1
+S2	W2	No	T2	P2
+S3	W3		T3	P3
+S4	W4		T4	
+S5			T5	
