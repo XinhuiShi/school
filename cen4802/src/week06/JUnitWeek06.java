@@ -421,6 +421,7 @@ public class JUnitWeek06
 			msg = dataLink ? "" : "Missing dataLink value\n";
 			msg = targets ? "" : "Missing targets value\n";
 			msg = platforms ? "" : "Missing platforms value\n";
+			trace("got here" + sensors + weapons + dataLink + targets + platforms);
 			fail(msg);
 		}
 

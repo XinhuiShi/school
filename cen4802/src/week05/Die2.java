@@ -8,7 +8,7 @@ import java.util.Random;
  * @author scottl
  * 
  */
-public class Die2
+public class Die2 
 {
     /**
      * Constructor
